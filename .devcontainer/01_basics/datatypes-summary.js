@@ -19,7 +19,30 @@ let myObj={
 }
 // console.table(myObj)
 
-const myFunction=function(){
-    console.log("hello ghosh")
+// const myFunction=function(){
+//     console.log("hello ghosh")
+// }
+// console.log(typeof myFunction)
+
+
+
+
+// ***********************************
+// stack(primative)& heap(non-primative) 
+
+let fathersName= "narayan"
+let pitaName = fathersName
+fathersName="ghosh"
+console.table(fathersName)
+console.table(pitaName)
+
+let familyOne={
+    father:"narayan",
+    mom:"sukla"
 }
-console.log(typeof myFunction)
+let familyTwo=familyOne 
+
+ familyTwo.mom="soma"
+
+console.table(familyOne)
+console.table(familyTwo)
